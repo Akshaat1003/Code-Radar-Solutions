@@ -2,7 +2,7 @@
 
 char* Intput() {
     char str;
-    scanf("%s", str)
+    scanf("%s", str);
     return str;
 }
 int main() {
