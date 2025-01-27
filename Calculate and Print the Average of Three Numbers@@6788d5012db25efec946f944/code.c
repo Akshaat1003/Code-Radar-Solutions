@@ -9,7 +9,7 @@ int main() {
         printf("Average: %.2f", avg);
     }
     else {
-        printf()
+        printf();
     }
     return 0;
 }
