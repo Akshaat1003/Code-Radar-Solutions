@@ -1,8 +1,6 @@
 #include <stdio.h>
 
 int main() {
-    int x;
-    scanf("%lf" &x);
-    printf("You entered: %lf", x);
+    double x;
     return 0;
 }
