@@ -6,6 +6,6 @@ int main() {
     for(i=0, i<shift, ++i){
         x = x >> i;
     }
-    printf("%d", x)
+    printf("%d", x);
     return 0;
 }
