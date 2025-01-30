@@ -7,10 +7,10 @@ int main() {
         msb++;
     }
     if(msb==1){
-        printf("True");
+        printf("%d" msb);
     }
     else{
-        printf("False");
+        printf("%d",msb);
     }
     return 0;
 }
