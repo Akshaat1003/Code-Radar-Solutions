@@ -3,6 +3,7 @@
 int main() {
     unsigned int x;
     unsigned msb = 0;
+    scanf("%u", &x)
     while(x >>= 1){
         msb++;
     }
