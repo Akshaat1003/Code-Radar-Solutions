@@ -10,7 +10,7 @@ int main() {
         printf("%d" msb);
     }
     else{
-        printf("%d",msb);
+        printf("%d", msb);
     }
     return 0;
 }
