@@ -2,15 +2,15 @@
 
 int main() {
     unsigned int x;
-    unsigned msb;
+    unsigned msb = 0;
     while(x>>=1){
         msb++;
     }
     if(msb==1){
-        printf("%d", msb);
+        printf("Set");
     }
     else{
-        printf("%d", msb);
+        printf("Not Set");
     }
     return 0;
 }
