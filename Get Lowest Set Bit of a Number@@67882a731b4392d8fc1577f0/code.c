@@ -2,7 +2,7 @@
 
 int main(){
     int x;
-    int p;
+    int p = 0;
     scanf("%d", x);
     while(x && !(num & 1)){
         num >>= 1;
