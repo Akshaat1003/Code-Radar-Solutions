@@ -2,7 +2,7 @@
 
 int main(){
     int x;
-    int LowestSet = x & -x;
-    printf("%d", LowestSet);
+    unsigned int LowestSet = x & -x;
+    printf("%u", LowestSet);
     return 0;
 }
