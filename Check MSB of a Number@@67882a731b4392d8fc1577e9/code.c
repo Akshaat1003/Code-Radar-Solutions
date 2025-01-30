@@ -3,7 +3,7 @@
 int main() {
     unsigned int x;
     unsigned msb = 0;
-    while(x>>=1){
+    while(x >>= 1){
         msb++;
     }
     if(msb==1){
