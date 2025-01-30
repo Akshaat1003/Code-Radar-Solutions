@@ -7,7 +7,7 @@ int main() {
         printf("True");
     }
     else if(x==0 || y==0){
-        printf("False");
+        printf("True");
     }
     else{
         printf("False");
