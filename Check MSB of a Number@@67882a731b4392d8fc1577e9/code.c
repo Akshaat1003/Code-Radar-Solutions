@@ -7,7 +7,7 @@ int main() {
         msb++;
     }
     if(msb==1){
-        printf("%d" msb);
+        printf("%d", msb);
     }
     else{
         printf("%d", msb);
