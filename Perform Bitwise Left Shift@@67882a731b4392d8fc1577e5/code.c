@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int x,shift,i;
+    int x,shift,i, num;
     scanf("%d%d", &x,&shift);
     for(i=0, i<shift, ++i){
-        x = x >> i;
+        num = x << i;
     }
     printf("%d", x);
     return 0;
