@@ -6,7 +6,7 @@ int main() {
     if(b**2 + a**2 == h**2){
         printf("Valid");
     } else {
-        printf("Invalid")
+        printf("Invalid");
     }
     return 0;
 }
