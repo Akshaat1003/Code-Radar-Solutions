@@ -25,11 +25,11 @@ int main() {
                 result = n1 / n2;
                 printf("%d", result);
             } else {
-                printf("Error: Division by zero");
+                printf("error");
             }
             break;
         default:
-            printf("Error: Invalid operator");
+            printf("error");
     }
     return 0;
 }
