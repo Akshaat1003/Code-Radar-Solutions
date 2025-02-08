@@ -22,7 +22,7 @@ int main() {
             printf("%d", div);
             break;
         default:
-            printf("Error")
+            printf("Error");
     }
     return 0;
 }
