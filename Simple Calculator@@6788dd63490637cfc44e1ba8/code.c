@@ -3,26 +3,33 @@
 int main() {
     int n1, n2;
     char o;
-    scanf("%d%d%c", &n1,&n2,&o);
-    switch(o){
+    int result;
+
+    scanf("%d %d %c", &n1, &n2, &o);
+    
+    switch(o) {
         case '+':
-            int sum = n1+n2;
-            printf("%d", sum);
+            result = n1 + n2;
+            printf("%d", result);
             break;
         case '-':
-            int sub = n1-n2;
-            printf("%d", sub);
+            result = n1 - n2;
+            printf("%d", result);
             break;
         case '*':
-            int mul = n1*n2;
-            printf("%d", mul);
+            result = n1 * n2;
+            printf("%d", result);
             break;
         case '/':
-            int div = n1/n2;
-            printf("%d", div);
+            if (n2 != 0) {
+                result = n1 / n2;
+                printf("%d", result);
+            } else {
+                printf("Error: Division by zero");
+            }
             break;
         default:
-            printf("Error");
+            printf("Error: Invalid operator");
     }
     return 0;
 }
