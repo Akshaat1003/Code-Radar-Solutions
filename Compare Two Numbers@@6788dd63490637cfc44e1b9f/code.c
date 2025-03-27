@@ -4,5 +4,5 @@ int main(){
     scanf("%d%d", &n1,&n2);
     if(n1==n2) printf("Equal");
     else if(n1>n2) printf("First");
-    else printf("Second")
+    else printf("Second");
 }
