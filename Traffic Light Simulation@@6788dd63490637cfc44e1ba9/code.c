@@ -3,13 +3,13 @@ int main(){
     int l;
     scanf("%d", &l);
     switch(l){
-        case "R":
+        case 'R':
         printf("Stop");
         break;
-        case "G":
+        case 'G':
         printf("Go");
         break;
-        case "Y":
+        case 'Y':
         printf("Slow Down");
         break;
         default:
