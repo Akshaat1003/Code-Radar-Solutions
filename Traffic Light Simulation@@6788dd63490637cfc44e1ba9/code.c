@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     int l;
-    scanf("%d", &l);
+    scanf("%c", &l);
     switch(l){
         case 'R':
         printf("Stop");
