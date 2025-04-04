@@ -1,12 +1,12 @@
 #include <stdio.h>
+
 int main() {
-    unsigned int x;
-    int n = 0;
-    scanf("%u", &x);
-    while ((x & (1U << 31)) == 0) {
-        n++;
+    int x, count = 0;
+    scanf("%d", &x);
+    while ((x & 1) == 0) {
+        count++;
         x >>= 1;
     }
-    printf("%d", n);
+    printf("%d", count);
     return 0;
 }
